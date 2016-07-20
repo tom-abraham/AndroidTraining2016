@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is a result Activity"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:id="@+id/textViewSecondActivityTitle"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:hint="Please enter data here"
+        android:id="@+id/editTextSecondActivityData"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:id="@+id/buttonSecondClick"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lets visit third"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:id="@+id/textViewThirdActivityTitle"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:hint="Data from third"
+        android:id="@+id/editTextThirdActivityData"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Third"
+        android:id="@+id/buttonThirdClick"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
