@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
     RelativeLayout mRelativeLayoutFragment2;
     Fragment1 fragment1;
     Fragment2 fragment2;
+
+    public int mTom;
     public static  final  String TAG_FRAGMENT_ONE = "FRAGMENT_ONE";
     public static  final  String TAG_FRAGMENT_TWO = "FRAGMENT_TWO";
 
